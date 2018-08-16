@@ -1,10 +1,32 @@
 <!-- vim: syntax=xml -->
-<hvml xmlns="http://vocab.nospoon.tv/ovml#" xmlns:hvml="http://vocab.nospoon.tv/ovml#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:oembed="http://oembed.com/" xmlns:html="http://www.w3.org/1999/xhtml" xml:lang="en">
+<hvml xmlns="http://vocab.nospoon.tv/ovml#" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:oembed="http://oembed.com/" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en-US">
   <group xml:id="hughs-vlog" type="series">
+    <title>Hugh’s Vlog</title>
+    <description type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>Hi, I’m Hugh. I started this video blog to document what it’s like to build a company, day by day, from the very beginning. I want to take this typically very private process and open it up to everyone. Imagine if you were able to watch Steve Jobs and Wozniak grow Apple from a garage project into the largest tech company in the world? I may not reach that level of success; I may fail spectacularly, but at least there will be a record of the attempt.</p>
+        <p>For me, it’s self-improvement by way of radical transparency, and the public accountability that comes with that. For you: you get to my virtual co-founders. I’ll be listening to your feedback in the comments and chat room every step of the way. I also endeavor to make the series equal parts informative and entertaining—so whether you’re a fellow founder looking to compare notes, or just an Average Joe/Josephine killing time on your lunch break, there’s something in it for you.</p>
+        <p>Join me as I attempt to achieve financial independence, put a dent in the universe, and squeeze the most I can out of life along the way.</p>
+      </div>
+    </description>
+    <tagline>The daily life of a startup founder, programmer, and filmmaker.</tagline>
+    <producer>
+      <entity>
+        <name>
+          <family-name>Guiney</family-name>
+          <given-name>Hugh</given-name>
+        </name>
+        <uri>https://hugh.today</uri>
+        <email>hello@hugh.today</email>
+      </entity>
+    </producer>
+    <copyright>
+      <text>© 2016–2018 Hugh Guiney</text>
+    </copyright>
     <!-- <group xml:id="season-x" type="series"></group> -->
     <group xml:id="season-01" type="series">
       <title>Season 1</title>
-      <video type="personal" xml:id="ep-0">
+      <video type="personal" xml:id="ep-0" xml:lang="en">
         <title>Introduction</title>
         <episode>0</episode>
         <runtime>PT9M51S</runtime>
@@ -27,11 +49,43 @@
             </description>
           </venue>
         </showing>
+        <showing scope="release" type="internet" admission="private" datetime="2018-08-06">
+          <venue type="site" datetime="17:44:46">
+            <entity site="https://vimeo.com/">Vimeo</entity>
+            <uri>https://vimeo.com/hughguiney/2016-05-18</uri>
+            <uri>https://vimeo.com/283559036/3f9f45d174</uri>
+            <title>Hugh"s Startup Vlog Episode #0 - Introduction</title>
+          </venue>
+        </showing>
+        <presentation>
+          <poster xml:id="ep-0-poster-webp-720p-vimeo" width="1280" height="720" xlink:href="https://i.vimeocdn.com/video/717859251.webp"/>
+          <frametype abbr="p">progressive</frametype>
+          <par x="1" y="1"/>
+          <fps rate="30000" scale="1001"/>
+          <file xml:id="ep-0-mp4-720p-vimeo" label="ep-0" xlink:href="https://player.vimeo.com/external/283559036.hd.mp4?s=2373803c17ac8e85e6278be495f48ba522f57f9a&amp;profile_id=174" length="193596055">
+            <width>1280</width>
+            <height>720</height>
+            <container>
+              <name>MPEG-4 Part 14</name>
+              <nickname>MP4</nickname>
+              <mime>video/mp4</mime>
+            </container>
+            <codec type="video">
+              <name>H.264/MPEG-4 Part 10 AVC</name>
+              <nickname>H.264</nickname>
+            </codec>
+            <codec type="audio">
+              <name>AAC-LC</name>
+              <mime>aac</mime>
+            </codec>
+          </file>
+        </presentation>
       </video>
-      <video type="personal" xml:id="ep-1">
+      <video type="personal" xml:id="ep-1" xml:lang="en">
         <title>A Late Start; Why Open Source?</title>
         <episode>1</episode>
         <runtime>PT4M21S</runtime>
+        <recorded>2016-05-19</recorded>
         <published>2016-05-19T21:46:46.000Z</published>
         <showing scope="release" type="internet" admission="public" datetime="2016-05-19">
           <venue type="site" datetime="21:46:46.000Z">
@@ -45,11 +99,33 @@
             </description>
           </venue>
         </showing>
+        <showing scope="release" type="internet" admission="private" datetime="2018-08-06">
+          <venue type="site" datetime="20:35:43">
+            <entity site="https://vimeo.com/">Vimeo</entity>
+            <uri>https://vimeo.com/hughguiney/2016-05-19</uri>
+            <uri>https://vimeo.com/283582303/4f22b821a7</uri>
+            <title>Hugh’s Startup Vlog Episode #1 - A Late Start; Why Open Source?</title>
+          </venue>
+        </showing>
+        <presentation>
+          <poster xml:id="ep-1-poster-webp-720p-vimeo" width="1280" height="720" xlink:href="https://i.vimeocdn.com/video/717882555.webp"/>
+          <frametype abbr="p">progressive</frametype>
+          <par x="1" y="1"/>
+          <fps rate="30000" scale="1001"/>
+          <file xml:id="ep-1-mp4-720p-vimeo" label="ep-1" xlink:href="https://player.vimeo.com/external/283582303.hd.mp4?s=8c65bdcb790e370fddf1acc812a2fa58f23c3af9&amp;profile_id=174" length="84430722">
+            <width>1280</width>
+            <height>720</height>
+            <container>
+              <mime>video/mp4</mime>
+            </container>
+          </file>
+        </presentation>
       </video>
       <video type="personal" xml:id="ep-2">
         <title>Fun vs. Productivity</title>
         <episode>2</episode>
         <runtime>PT7M52S</runtime>
+        <recorded>2016-05-20</recorded>
         <published>2016-05-21T02:56:14.000Z</published>
         <showing scope="release" type="internet" admission="public" datetime="2016-05-21">
           <venue type="site" datetime="02:56:14.000Z">
@@ -63,17 +139,39 @@
             </description>
           </venue>
         </showing>
+        <showing scope="release" type="internet" admission="private" datetime="2018-08-06">
+          <venue type="site" datetime="21:08:30">
+            <entity site="https://vimeo.com/">Vimeo</entity>
+            <uri>https://vimeo.com/hughguiney/2016-05-20</uri>
+            <uri>https://vimeo.com/283586692/ab9cb027ec</uri>
+            <title>Hugh’s Startup Vlog Episode #2 - Fun vs. Productivity</title>
+          </venue>
+        </showing>
+        <presentation>
+          <poster xml:id="ep-2-poster-webp-720p-vimeo" width="1280" height="720" xlink:href="https://i.vimeocdn.com/video/717890063.webp"/>
+          <frametype abbr="p">progressive</frametype>
+          <par x="1" y="1"/>
+          <fps rate="30000" scale="1001"/>
+          <file xml:id="ep-2-mp4-720p-vimeo" label="ep-2" xlink:href="https://player.vimeo.com/external/283586692.hd.mp4?s=6f8cf1d7c67838b8c8b1806488d760bc0471cdb2&amp;profile_id=174" length="155494589">
+            <width>1280</width>
+            <height>720</height>
+            <container>
+              <mime>video/mp4</mime>
+            </container>
+          </file>
+        </presentation>
       </video>
       <video type="personal" xml:id="ep-3">
         <title>Early Rise; Web Development Stalled</title>
         <episode>3</episode>
         <runtime>PT3M22S</runtime>
+        <recorded>2016-05-21</recorded>
         <published>2016-05-21T15:25:46.000Z</published>
         <showing scope="release" type="internet" admission="public" datetime="2016-05-21">
           <venue type="site" datetime="15:25:46.000Z">
             <entity site="https://www.youtube.com/">YouTube</entity>
             <uri>https://www.youtube.com/watch?v=UbiGRA10K2c</uri>
-            <title>Hugh‘s Startup Vlog Episode #3 - Early Rise; Web Development Stalled</title>
+            <title>Hugh’s Startup Vlog Episode #3 - Early Rise; Web Development Stalled</title>
             <description type="xhtml">
               <div xmlns="http://www.w3.org/1999/xhtml">
                 <p>#HughsStartupVlog</p>
@@ -81,11 +179,33 @@
             </description>
           </venue>
         </showing>
+        <showing scope="release" type="internet" admission="private" datetime="2018-08-06">
+          <venue type="site" datetime="22:46:05">
+            <entity site="https://vimeo.com/">Vimeo</entity>
+            <uri>https://vimeo.com/hughguiney/2016-05-21</uri>
+            <uri>https://vimeo.com/283597797/724c4d0822</uri>
+            <title>Hugh’s Startup Vlog Episode #3 - Early Rise; Web Development Stalled</title>
+          </venue>
+        </showing>
+        <presentation>
+          <poster xml:id="ep-3-poster-webp-720p-vimeo" width="1280" height="720" xlink:href="https://i.vimeocdn.com/video/717906503.webp"/>
+          <frametype abbr="p">progressive</frametype>
+          <par x="1" y="1"/>
+          <fps rate="30000" scale="1001"/>
+          <file xml:id="ep-3-mp4-720p-vimeo" label="ep-3" xlink:href="https://player.vimeo.com/external/283597797.hd.mp4?s=66dc555b78a4e0b36d14dcacc533694117f1260a&amp;profile_id=174" length="66357354">
+            <width>1280</width>
+            <height>720</height>
+            <container>
+              <mime>video/mp4</mime>
+            </container>
+          </file>
+        </presentation>
       </video>
       <video type="personal" xml:id="ep-4">
         <title>First Week In Review</title>
         <episode>4</episode>
         <runtime>PT6M11S</runtime>
+        <recorded>2016-05-23</recorded>
         <published>2016-05-23T21:23:22.000Z</published>
         <showing scope="release" type="internet" admission="public" datetime="2016-05-23">
           <venue type="site" datetime="21:23:22.000Z">
@@ -99,11 +219,33 @@
             </description>
           </venue>
         </showing>
+        <showing scope="release" type="internet" admission="private" datetime="2018-08-07">
+          <venue type="site" datetime="00:44:35">
+            <entity site="https://vimeo.com/">Vimeo</entity>
+            <uri>https://vimeo.com/hughguiney/2016-05-23</uri>
+            <uri>https://vimeo.com/283609122/8db4c9016b</uri>
+            <title>Hugh’s Startup Vlog Episode #4 - First Week In Review</title>
+          </venue>
+        </showing>
+        <presentation>
+          <poster xml:id="ep-4-poster-webp-720p-vimeo" width="1280" height="720" xlink:href="https://i.vimeocdn.com/video/717920060.webp"/>
+          <frametype abbr="p">progressive</frametype>
+          <par x="1" y="1"/>
+          <fps rate="30000" scale="1001"/>
+          <file xml:id="ep-4-mp4-720p-vimeo" label="ep-4" xlink:href="https://player.vimeo.com/external/283609122.hd.mp4?s=8ac446cc5958250d6aadc418d56831007653b013&amp;profile_id=174" length="120625532">
+            <width>1280</width>
+            <height>720</height>
+            <container>
+              <mime>video/mp4</mime>
+            </container>
+          </file>
+        </presentation>
       </video>
       <video type="personal" xml:id="ep-5">
         <title>A Healthier Lifestyle; Which Product to Develop?</title>
         <episode>5</episode>
         <runtime>PT6M56S</runtime>
+        <recorded>2016-05-24</recorded>
         <published>2016-05-24T18:20:22.000Z</published>
         <showing scope="release" type="internet" admission="public" datetime="2016-05-24">
           <venue type="site" datetime="18:20:22.000Z">
@@ -122,6 +264,7 @@
         <title>I Hate Computers</title>
         <episode>6</episode>
         <runtime>PT3M44S</runtime>
+        <recorded>2016-05-25</recorded>
         <published>2016-05-25T21:07:41.000Z</published>
         <showing scope="release" type="internet" admission="public" datetime="2016-05-25">
           <venue type="site" datetime="21:07:41.000Z">
@@ -140,6 +283,7 @@
         <title>No More Website Woes; A Shorter Path to Profitability</title>
         <episode>7</episode>
         <runtime>PT5M</runtime>
+        <recorded>2016-05-28</recorded>
         <published>2016-05-28T19:33:50.000Z</published>
         <showing scope="release" type="internet" admission="public" datetime="2016-05-28">
           <venue type="site" datetime="19:33:50.000Z">
@@ -158,6 +302,7 @@
         <title>Landing Page; Soylent First Impressions</title>
         <episode>8</episode>
         <runtime>PT7M6S</runtime>
+        <recorded>2016-06-02</recorded>
         <published>2016-06-02T21:08:53.000Z</published>
         <showing scope="release" type="internet" admission="public" datetime="2016-06-02">
           <venue type="site" datetime="21:08:53.000Z">
@@ -175,7 +320,7 @@
     </group>
     <group xml:id="season-02" type="series">
       <title>Season 2</title>
-      <video type="personal" xml:id="ep-9">
+      <video type="personal" xml:id="ep-9" xml:lang="en">
         <title>A New Approach to Vlogging; Dad Powers</title>
         <episode>9</episode>
         <runtime>PT12M56S</runtime>
@@ -233,7 +378,7 @@
           </venue>
         </showing>
       </video>
-      <video type="personal" xml:id="ep-11">
+      <video type="personal" xml:id="ep-11" xml:lang="en">
         <title>Runway Woes; Advice from A Former Founder</title>
         <episode>11</episode>
         <runtime>PT6M35S</runtime>
@@ -290,7 +435,7 @@
           </venue>
         </showing>
       </video>
-      <video type="personal" xml:id="ep-13">
+      <video type="personal" xml:id="ep-13" xml:lang="en">
         <title>Foiled by Trivia; The Grape Gatsby</title>
         <episode>13</episode>
         <runtime>PT12M5S</runtime>
@@ -316,7 +461,7 @@
           </venue>
         </showing>
       </video>
-      <video type="personal" xml:id="ep-14">
+      <video type="personal" xml:id="ep-14" xml:lang="en">
         <title>I met Daymond John!</title>
         <episode>14</episode>
         <runtime>PT8M51S</runtime>
@@ -340,7 +485,7 @@
           </venue>
         </showing>
       </video>
-      <video type="personal" xml:id="ep-15">
+      <video type="personal" xml:id="ep-15" xml:lang="en">
         <title>Last Day of Summer ’16</title>
         <episode>15</episode>
         <runtime>PT12M13S</runtime>
@@ -367,7 +512,7 @@
     </group>
     <group xml:id="season-03" type="series">
       <title>Season 3</title>
-      <video type="personal" xml:id="ep-16">
+      <video type="personal" xml:id="ep-16" xml:lang="en">
         <title>I Took A Blood Oath to Vlog Every Day</title>
         <episode>16</episode>
         <runtime>PT17M39S</runtime>
@@ -406,7 +551,7 @@
           </venue>
         </showing>
       </video>
-      <video type="personal" xml:id="ep-17">
+      <video type="personal" xml:id="ep-17" xml:lang="en">
         <title>4 Reasons Daily Vlogging Is Hard</title>
         <episode>17</episode>
         <runtime>PT18M46S</runtime>
@@ -434,7 +579,7 @@
           </venue>
         </showing>
       </video>
-      <video type="personal" xml:id="ep-18">
+      <video type="personal" xml:id="ep-18" xml:lang="en">
         <title>Hacking My Body to Edit Longer</title>
         <episode>18</episode>
         <runtime>PT8M4S</runtime>
@@ -463,7 +608,7 @@
           </venue>
         </showing>
       </video>
-      <video type="personal" xml:id="ep-19">
+      <video type="personal" xml:id="ep-19" xml:lang="en">
         <title>Coffiest First Impressions</title>
         <episode>19</episode>
         <runtime>PT5M23S</runtime>
@@ -490,7 +635,7 @@
           </venue>
         </showing>
       </video>
-      <video type="personal" xml:id="ep-20">
+      <video type="personal" xml:id="ep-20" xml:lang="en">
         <title>New Jersey–bound. I Wish It Were Under Better Circumstances.</title>
         <episode>20</episode>
         <runtime>PT20M8S</runtime>
@@ -526,7 +671,7 @@
           </venue>
         </showing>
       </video>
-      <video type="personal" xml:id="ep-21">
+      <video type="personal" xml:id="ep-21" xml:lang="en">
         <title>My First Paid Photography Gig! + Improv with Midnight Avenue</title>
         <episode>21</episode>
         <runtime>PT11M49S</runtime>
@@ -566,7 +711,7 @@
           </venue>
         </showing>
       </video>
-      <video type="personal" xml:id="ep-22">
+      <video type="personal" xml:id="ep-22" xml:lang="en">
         <title>Buying Soda &amp; Breaking My Blood Oath</title>
         <episode>22</episode>
         <runtime>PT3M57S</runtime>

@@ -4,7 +4,7 @@ declare default element namespace "http://vocab.nospoon.tv/ovml#";
 let $vlog := db:open('hughs-vlog', 'vlog.hvml')
 
 return insert node <presentation>
-          <poster xml:id="ep-4-poster-webp-720p-vimeo" width="1280" height="720" xlink:href="https://i.vimeocdn.com/video/717920060.webp" />
+          <poster xml:id="ep-4-poster-webp-720p-vimeo" width="1280" height="720" xlink:href="https://i.vimeocdn.com/video/717920060.webp" mime="image/webp" />
           <frametype abbr="p">progressive</frametype>
           <par x="1" y="1" />
           <fps rate="30000" scale="1001" />
